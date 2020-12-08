@@ -1,6 +1,7 @@
 const express = require("express")
 const bodyParser = require("body-parser")
 const https = require("https")
+heroku config:set NODE_ENV=production
 
 const app = express()
 app.use(bodyParser.urlencoded({
